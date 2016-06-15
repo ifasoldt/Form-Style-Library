@@ -1,0 +1,77 @@
+
+form {
+  border: 1px #ff8080 solid;
+  width: 700px;
+  margin-left: 25px;
+  background-color: lightgrey;
+  text-align:right;
+  padding-right: 250px;
+}
+
+div {
+  margin:10px;
+}
+label {
+  vertical-align: top;
+  display: inline-block;
+  margin:auto;
+  text-align: right;
+  background-color:  #ff8080;
+  border-radius: 15%;
+  padding: 4px;
+  color:white;
+}
+input {
+  display: inline;
+  width:400px;
+  height: 1.5em;
+  border: groove 4px #ff8080;
+  margin: auto;
+  transition:0.9s;
+  box-shadow: 1px 2px 1px #ff8080;
+  border-radius: 15%;
+}
+
+
+textarea {
+  width: 400px;
+  height: 80px;
+  border: groove 4px #ff8080;
+  margin: auto;
+  transition:0.9s;
+  box-shadow: 1px 2px 1px #ff8080;
+  border-radius: 15%;
+}
+
+input:focus, textarea:focus {
+  transform: scale(1.3);
+  border: groove 4px #ff3333;
+  position:relative;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+button {
+  background-color: #ff8080
+}
+
+select {
+  width:400px;
+  box-shadow: 2px 2px #ff8080;
+}
+
+.button {
+  text-align: right;
+  margin-right: 150px;
+}
+button {
+  color:white;
+  border-radius: 15%;
+}
+
+.checkbox {
+  width: auto;
+  box-shadow: initial;
+  background-color: #ff3333;
+}

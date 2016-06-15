@@ -1,0 +1,94 @@
+body *{
+  margin: 5px;
+}
+form {
+  width: 60%;
+  border-radius;
+  background-color: #A8E6CE;
+}
+
+input {
+  width: 35%;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+textarea {
+  width: 80%;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+input:hover, textarea:hover {
+    box-shadow: inset 0 0 2px black, 0 0 4px black;
+    background-color: white;
+}
+
+input:focus, textarea:focus {
+animation-duration: 1s;
+animation-name: pulse;
+}
+
+@keyframes pulse{
+  from {
+    transform: scale(1)
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+label {
+  background-color: #FFAAA6;
+  color:grey;
+  display:inline-block;
+  padding: 5px;
+  word-wrap: normal;
+  vertical-align: middle;
+  box-shadow: 0 0 2px #FFAAA6, 0 0 4px black;
+}
+
+.radiolabel {
+  width: 90px;
+}
+
+.radio {
+  vertical-align: middle;
+  width: auto;
+  background-color: #f2f2f2;
+}
+
+.radio:hover {
+  box-shadow: initial;
+  background-color: white;
+}
+
+#referrer {
+  width: 80%;
+  background-color: #f2f2f2;
+}
+
+#referrer:hover {
+  box-shadow: 1px 1px 1px 1px white;
+  background-color:white;
+}
+
+#message {
+  vertical-align: top;
+}
+
+button {
+  color:white;
+  background-color: #FFAAA6;
+}
+button:hover {
+  border: solid white .5px;
+}
+
+.button {
+  text-align: center;
+}
